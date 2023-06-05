@@ -47,4 +47,8 @@ public class seleniumGrid {
         Thread.sleep(5000);
         driver.quit();
     }
+    @Test
+    public void close(){
+        System.out.println("git");
+    }
 }
