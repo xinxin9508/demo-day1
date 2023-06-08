@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Default Suite]" parallel="methods">
+  <test thread-count="3" verbose="0" name="webdriver_demo(failed)" parallel="methods">
+    <classes>
+      <class name="com.demo.day3.findAndclick">
+        <methods>
+          <include name="findElemen"/>
+          <include name="closeC"/>
+          <include name="openC"/>
+          <include name="findList1"/>
+        </methods>
+      </class> <!-- com.demo.day3.findAndclick -->
+    </classes>
+  </test> <!-- webdriver_demo(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
