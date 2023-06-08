@@ -1,7 +1,7 @@
 package com.demo.day5;
 
-import org.apache.tools.ant.taskdefs.Tstamp;
-import org.apache.tools.ant.taskdefs.WaitFor;
+//import org.apache.tools.ant.taskdefs.Tstamp;
+//import org.apache.tools.ant.taskdefs.WaitFor;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

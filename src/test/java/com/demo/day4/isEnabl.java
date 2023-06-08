@@ -1,6 +1,5 @@
 package com.demo.day4;
 
-import org.apache.tools.ant.util.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -40,17 +39,17 @@ public class isEnabl {
     截图
      */
 
-    @Test
-    public  void  shut(){
-        driver.get("https://www.baidu.com");
-        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils s = new file();
-        try{
-            s.copyFile(file,new File("D:\\test1.png"));
-        }catch (IOException e){
-            e.printStackTrace();
-        }
-    }
+//    @Test
+//    public  void  shut(){
+//        driver.get("https://www.baidu.com");
+//        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//        FileUtils s = new file();
+//        try{
+//            s.copyFile(file,new File("D:\\test1.png"));
+//        }catch (IOException e){
+//            e.printStackTrace();
+//        }
+//    }
 
     @AfterMethod
     public void close(){
@@ -58,3 +57,4 @@ public class isEnabl {
         driver.quit();
     }
 }
+

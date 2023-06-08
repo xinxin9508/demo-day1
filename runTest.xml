@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE suit SYSTEM "http://testng.org/testng-1.0.dtd">
-<suit name="Default Suite" parallel="methods" thread-count="3">
-    <test name="Selenium grid Demo">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="methods" thread-count="3">
+    <test name="webdriver_demo">
         <classes>
-            <class name="com.demo.day1.demo1"></class>
+            <class name="com.demo.day3.findAndclick"/>
         </classes>
-    </test>
-</suit>
+    </test> <!-- webdriver_demo -->
+
+</suite>
