@@ -6,5 +6,4 @@
             <class name="com.demo.day3.findAndclick"/>
         </classes>
     </test> <!-- webdriver_demo -->
-
 </suite>
